@@ -1,0 +1,106 @@
+.contact-section {
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url('./../assets/bg-img.avif');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: beige;
+}
+
+
+.main-contact-section {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  /* very light glass effect */
+  backdrop-filter: blur(8px);
+  /* BLUR effect */
+  -webkit-backdrop-filter: blur(8px);
+  /* Safari support */
+  padding: 40px;
+  border-radius: 30px;
+  color: beige;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 1;
+
+  @media screen and (max-width:900px) {
+    width: 100%;
+    padding: 30px 5px;
+  }
+}
+
+
+
+.contact-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-heading span {
+  color: beige;
+}
+
+.contact-text {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: beige;
+}
+
+.contact-details {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+
+  @media screen and (max-width:900px) {
+    font-size: 14px;
+  }
+}
+
+.contact-details i {
+  margin-right: 10px;
+  color: #ba487f;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn.primary {
+  background-color: #ba487f;
+  color: beige;
+}
+
+.btn.primary:hover {
+  background-color: #a23c6f;
+}
+
+.btn.secondary-contact {
+  background-color: transparent;
+  color: #ba487f;
+  border: 2px solid #ba487f;
+}
+
+.btn.secondary-contact:hover {
+  background-color: #ba487f;
+  color: beige;
+}
