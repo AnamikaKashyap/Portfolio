@@ -204,6 +204,10 @@ body {
   /* border-right: 2px solid #ffeccc; */
   width: 100%;
   max-height: 60px;
+
+  @media screen and (max-width:600px) {
+    max-height: 110px;
+  }
 }
 
 
