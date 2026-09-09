@@ -57,7 +57,7 @@ function NavHeroSection() {
         </section>
 
         <a
-          href="https://drive.google.com/file/d/1MDXuTILOG1xNikn-kCWWa-A_1Ix1aCgS/view"
+          href="https://drive.google.com/file/d/1ben0cZxmS0DarmWAGUgy_v4Pcgk16C-p/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
